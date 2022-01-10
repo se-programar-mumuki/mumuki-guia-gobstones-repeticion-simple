@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Not:Uses:IrAlBorde"
+  then: En este ejercicio no tenemos que ir al borde, sino sólo movernos 4 celdas
+    al este. Usá `repeat` en lugar de `IrAlBorde`

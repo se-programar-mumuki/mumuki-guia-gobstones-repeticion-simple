@@ -1,0 +1,21 @@
+---
+name: Repetición Simple
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: gobstones
+id_format: "%05d"
+order:
+- 100
+- 200
+- 300
+- 801
+- 802
+- 400
+- 803
+- 804
+- 805
+- 600
+- 806
+private: false

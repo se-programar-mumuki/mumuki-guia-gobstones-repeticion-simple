@@ -1,0 +1,5 @@
+expectation "Hay que dividir en subtareas. Intentá crear un procedimiento que ponga 21 bolitas azules y luego invocalo en `DiagonalPesada4Azul`.":
+   within `DiagonalPesada4Azul` delegates; 
+
+expectation "Parece que hay lógica repetida que podrías eliminar utilizando `repeat`. ¡Probablemente lo tengas que usar en más de un lugar!":
+  count(uses repeat) = 2;
